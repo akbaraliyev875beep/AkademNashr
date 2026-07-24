@@ -1,0 +1,205 @@
+/* Saytning umumiy o'lchami */
+.site {
+    width: 100%;
+}
+
+/* Linklar */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header / Menyu qismi */
+.hdr {
+    border-top: 5px solid orange;
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-box {
+    display: flex;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.l-txt {
+    font-size: 24px;
+}
+
+.nav-r {
+    margin-right: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+/* Tugmalar */
+.btn-r {
+    width: 140px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-r:hover {
+    background-color: darkorange;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.btn-b {
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-b:hover {
+    background-color: darkorange;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+/* Main / Asosiy bo'lim */
+.m-sec {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    color: white;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.m-txt {
+    margin-left: 50px;
+}
+
+.m-h1 {
+    font-size: 36px;
+}
+
+.m-img img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+/* Section 1 (Afzalliklar bo'limi) */
+.a-b {
+    margin: 50px;
+}
+
+.a-h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+
+    /* 1. Tepasiga chiziqcha qo'shish */
+    border-top: 4px solid orange;
+    padding-top: 15px;
+    
+    /* 2. Chiziqcha matn bilan teng bo'lib qolmasligi uchun */
+    display: inline-block;
+}
+
+.cards-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* Section 2 (Aksiya bo'limi) */
+.ak-b {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    color: white;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.s2-p {
+    color: orange;
+}
+
+.ak-img img {
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Footer / Pastki qism */
+.ftr {
+    margin: 50px;
+}
+
+.f-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-logo {
+    display: flex;
+    gap: 5px;
+}
+
+.f-soc {
+    display: flex;
+    gap: 20px;
+}
+
+.f-soc img {
+    cursor: pointer;
+}
+
+.f-hr {
+    width: 1100;
+    height: 2;
+    top: 2375px;
+    left: 170px;
+    angle: 0 deg;
+    opacity: 1;
+    color rgba(37, 36, 32, 0.5);
+    
+}
+
+.f-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.f-col {
+    color: #FF7500;
+}
